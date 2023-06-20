@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi página web</title>
+
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+            background-color:#dc6aff;
+		}
+       
+		header {
+			background-color: #8800a3;
+			color: #ffffff;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 10px 20px;
+		}
+        h1{
+    background-color: rgb(247, 34, 229);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+		header nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			align-items: center;
+		}
+
+		header nav ul li {
+			margin: 0 10px;
+		}
+
+		header nav ul li a {
+			color:rgb(233, 247, 255);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+			text-decoration: none;
+			font-size: 20px;
+			font-weight: bold;
+            size:30px ;
+		}
+
+		.container {
+			flex: 100%;
+			height: 500px;
+			box-sizing: border-box;
+			padding: 30px;
+			text-align: center;
+			color:rgb(255, 255, 255);
+			font-size: 24px;
+			line-height: 1.5;
+			margin-bottom: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		}
+
+		.box {
+			flex-basis: 100%;
+			height: 500px;
+			box-sizing: border-box;
+			padding: 30px;
+			text-align: center;
+			color: #ffffff;
+			font-size: 20px;
+			line-height: 1.5;
+			margin-bottom: 16px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		}
+
+		.box:nth-child(odd) {
+			background-color:  #7e48e0;
+		}
+
+		.box:nth-child(even) {
+			background-color: #b210c7;
+		}
+	</style>
+</head>
+<body>
+   
+	<header>
+        <h1>Proyecto página web</h1>
+		<nav>
+			<ul>
+				<li><a href="#nuestra-pagina">Nuestra Página</a></li>
+				<li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+				<li><a href="#que-aprendimos">¿Qué Aprendimos?</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="container">
+
+		<div class="box" id="nuestra-pagina">
+			<h2>Nuestra Página</h2>
+			<p>Esta pagina fue creada con el proposito de servir de  evaluacion fianl para el Submodulo
+                 1 del Modulo 3 de programacion, esta es nuestra primera practica de alojar nuestra pagina
+              en un servidor web gratuito y que demas personas pudieran visualizarla
+            </p>
+            <p>Te dejo un video para que veas como se realiza dicho proceso:</p>
+
+              <iframe width="360" height="200" src="https://www.youtube.com/embed/y_EzgTPu5UU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+		</div>
+
+		<div class="box" id="sobre-nosotros">
+			<h2>Sobre Nosotros</h2>
+			<p>Somos Aurora Guadalupe Arana Canche y Mariza Noemi Cauich Briceño somos amigas; Nos conocimos en la escuela y somos alumnas del Cetis 112 estudiando la carrera de  tecnico en programacion, actualmente estamos
+            terminando el cuarto semestre y estamos seguras que ampliaremos nuestros conocimientos aun mas
+            </p>
+			<p>-A Aurora le gusta dibujar y los gatos </p>
+			<p>-A mariza le gustan las peliculas de terror, escuchar K-pop (Blackpink,Twice...)</p>
+			<img src="cara.jpg" width="200" height="130">
+		</div>
+
+		<div class="box" id="que-aprendimos">
+			<h2>¿Qué Aprendimos?</h2>
+			<p>Hemos aprendido este semestre a desarrollar paginas web  codificando con HTML, brindar estilo y diseño a las paginas con 
+                Css y con Php tambien a crear paginas y probar nuestras paginas con ayuda de un servidor local,la verdad creeemos que fue
+            mas interesante que el semestre anterior y  sabemos que lo siguiente que tengamos que aprender de la programacion no va ser la exepcion</p>
+		<img src="lenguajes.jpg" width="400" height="200">
+		</div>
+	</div>
+
+</body>
+</html>
